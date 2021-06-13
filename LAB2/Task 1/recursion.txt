@@ -1,0 +1,27 @@
+iterattive logic (loops)
+
+int factorial(int n)
+{
+	int f = 1;
+	int j = 1;
+	
+	while(j <= n)
+	{
+		f = f * j;
+		j = j + 1;
+	}
+
+	return f;
+}
+
+recursive logic (function calls itself)
+
+int factorial(int n)
+{
+	if (n==1)
+	{
+	    return 1;
+	}
+	return n * factorial(n-1) ;
+}
+

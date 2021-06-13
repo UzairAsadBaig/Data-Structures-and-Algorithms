@@ -1,0 +1,1 @@
+=> Data structure is the organization of data so that algorithms can run effectively.
